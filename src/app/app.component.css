@@ -1,0 +1,39 @@
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+}
+.search {
+  text-align: center;
+  margin-bottom: 30px;
+}
+button {
+  background: #04aa6d;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  color: white;
+  font-weight: 700;
+}
+input {
+  margin-right: 10px;
+  padding: 5px 12px;
+}
+
+.data {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.data th {
+  background: #04aa6d;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+}
+.data td {
+  padding: 8px;
+  text-align: center;
+}
+.data tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
